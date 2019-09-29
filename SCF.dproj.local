@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/24 20:41:41.000.063,=C:\Users\caval\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/24 20:47:44.000.401,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\uPrincipal.pas=C:\Users\caval\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/24 20:47:44.000.401,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\uPrincipal.dfm=C:\Users\caval\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/08/24 20:47:50.000.813,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\SCF.dproj=C:\Users\caval\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/08/24 20:59:08.000.859,=C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\Unit2.pas</Transaction>
+    <Transaction>2019/08/24 21:00:02.000.840,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\uClientes.pas=C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\Unit2.pas</Transaction>
+    <Transaction>2019/08/24 21:00:02.000.840,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\uClientes.dfm=C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\Unit2.dfm</Transaction>
+    <Transaction>2019/08/25 20:49:33.000.918,=C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\Unit1.pas</Transaction>
+    <Transaction>2019/08/25 20:52:52.000.680,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\uDMdados.pas=C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\Unit1.pas</Transaction>
+    <Transaction>2019/08/25 20:52:52.000.680,C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\uDMdados.dfm=C:\Users\caval\Documents\Embarcadero\Studio\Projects\SCF\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,96 @@
+object DMdados: TDMdados
+  OldCreateOrder = False
+  Height = 240
+  Width = 320
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=FDConnection1')
+    Connected = True
+    Left = 168
+    Top = 136
+  end
+  object SQLTableClientes: TFDTable
+    Active = True
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'CLIENTES'
+    TableName = 'CLIENTES'
+    Left = 160
+    Top = 64
+    object SQLTableClientesID_CLIENTE: TIntegerField
+      FieldName = 'ID_CLIENTE'
+      Origin = 'ID_CLIENTE'
+      Required = True
+    end
+    object SQLTableClientesNOME_CLIENTE: TStringField
+      FieldName = 'NOME_CLIENTE'
+      Origin = 'NOME_CLIENTE'
+      Size = 50
+    end
+    object SQLTableClientesEMAIL_CLIENTE: TStringField
+      FieldName = 'EMAIL_CLIENTE'
+      Origin = 'EMAIL_CLIENTE'
+      Size = 50
+    end
+    object SQLTableClientesENDERECO_CLIENTE: TStringField
+      FieldName = 'ENDERECO_CLIENTE'
+      Origin = 'ENDERECO_CLIENTE'
+      Size = 100
+    end
+    object SQLTableClientesNUMERO_CLIENTE: TIntegerField
+      FieldName = 'NUMERO_CLIENTE'
+      Origin = 'NUMERO_CLIENTE'
+    end
+    object SQLTableClientesTELEFONE_CLIENTE: TStringField
+      FieldName = 'TELEFONE_CLIENTE'
+      Origin = 'TELEFONE_CLIENTE'
+    end
+    object SQLTableClientesDATA_CLIENTE: TSQLTimeStampField
+      FieldName = 'DATA_CLIENTE'
+      Origin = 'DATA_CLIENTE'
+    end
+  end
+  object DataSetProviderClientes: TDataSetProvider
+    DataSet = SQLTableClientes
+    Left = 232
+    Top = 40
+  end
+  object ClientDataSetClientes: TClientDataSet
+    Active = True
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'DataSetProviderClientes'
+    Left = 256
+    Top = 128
+    object ClientDataSetClientesID_CLIENTE: TIntegerField
+      FieldName = 'ID_CLIENTE'
+      Origin = 'ID_CLIENTE'
+    end
+    object ClientDataSetClientesNOME_CLIENTE: TStringField
+      FieldName = 'NOME_CLIENTE'
+      Origin = 'NOME_CLIENTE'
+      Size = 50
+    end
+    object ClientDataSetClientesEMAIL_CLIENTE: TStringField
+      FieldName = 'EMAIL_CLIENTE'
+      Origin = 'EMAIL_CLIENTE'
+      Size = 50
+    end
+    object ClientDataSetClientesENDERECO_CLIENTE: TStringField
+      FieldName = 'ENDERECO_CLIENTE'
+      Origin = 'ENDERECO_CLIENTE'
+      Size = 100
+    end
+    object ClientDataSetClientesNUMERO_CLIENTE: TIntegerField
+      FieldName = 'NUMERO_CLIENTE'
+      Origin = 'NUMERO_CLIENTE'
+    end
+    object ClientDataSetClientesTELEFONE_CLIENTE: TStringField
+      FieldName = 'TELEFONE_CLIENTE'
+      Origin = 'TELEFONE_CLIENTE'
+    end
+    object ClientDataSetClientesDATA_CLIENTE: TSQLTimeStampField
+      FieldName = 'DATA_CLIENTE'
+      Origin = 'DATA_CLIENTE'
+    end
+  end
+end
